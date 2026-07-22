@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Tech Channel | Jacob</title>
+<meta name="description" content="Linux distro hopping, window manager rices, and self-hosted tooling from Jacob's tech channel.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo"><span>paracord</span>_<span>tech</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="paracord.html">Paracord</a>
+      <a href="tech.html" aria-current="page">Tech</a>
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section id="tech" style="padding-top:60px;">
+  <div class="section-head">
+    <h2>The Tech Channel</h2>
+    <a href="https://www.youtube.com/@jacobturner25" target="_blank" rel="noopener" class="section-tag channel-link">↗ youtube.com/@jacobturner25</a>
+  </div>
+
+  <div class="video-grid" id="techGrid">
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+  </div>
+
+  <div class="about-grid" id="tech-about" style="margin-top:60px;">
+    <div class="about-block">
+      <h3>about the channel</h3>
+      <p>Linux distro hopping, window manager rices, self-hosted tooling, and the
+        occasional deep-dive when something breaks in an interesting way.</p>
+      <div class="tag-row">
+        <span class="tag">CachyOS</span>
+        <span class="tag">Arch Linux</span>
+        <span class="tag">COSMIC</span>
+        <span class="tag">self-hosting</span>
+      </div>
+    </div>
+    <div class="about-block">
+      <h3>current setup</h3>
+      <div class="terminal">
+        <div class="terminal-bar"><span></span><span></span><span></span></div>
+        <div class="terminal-body">
+<div><span class="comment"># neofetch (abbreviated)</span></div>
+<div><span class="prompt">os</span>       CachyOS x86_64</div>
+<div><span class="prompt">kernel</span>   7.1.3-1-cachyos</div>
+<div><span class="prompt">shell</span>    fish 4.8.0</div>
+<div><span class="prompt">de/wm</span>   COSMIC (cosmic-comp)</div>
+<div><span class="prompt">cpu</span>      AMD Ryzen 7 7800X3D</div>
+<div><span class="prompt">gpu</span>      RTX 5070</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="footer-links">
+    <a href="https://www.youtube.com/channel/UCThoICfvPSVzRNzDvnxs8lg" target="_blank" rel="noopener">Paracord Corner — YouTube</a>
+    <a href="https://www.youtube.com/@jacobturner25" target="_blank" rel="noopener">Tech Channel — YouTube</a>
+    <a href="#" target="_blank" rel="noopener">Personal Site</a>
+    <a href="#" target="_blank" rel="noopener">GitHub</a>
+    <a href="mailto:turnejac01@gmail.com">Email</a>
+  </div>
+  <p>&copy; <span id="year"></span> Jacob. Built with plain HTML/CSS/JS — no framework needed.</p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  loadYouTubeChannel('UCt1kj0WxWYxn9Or7N3KgtAg', 'techGrid');
+</script>
+</body>
+</html>

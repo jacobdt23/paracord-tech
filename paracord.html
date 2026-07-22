@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jacob's Paracord Corner | Jacob</title>
+<meta name="description" content="Paracord crafting tutorials, knot-tying breakdowns, and gear builds from Jacob's Paracord Corner.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo"><span>paracord</span>_<span>tech</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="paracord.html" aria-current="page">Paracord</a>
+      <a href="tech.html">Tech</a>
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section id="paracord" style="padding-top:60px;">
+  <div class="section-head">
+    <h2>Jacob's Paracord Corner</h2>
+    <a href="https://www.youtube.com/channel/UCThoICfvPSVzRNzDvnxs8lg" target="_blank" rel="noopener" class="section-tag channel-link">↗ youtube.com/@JacobTurner-p1f9c</a>
+  </div>
+
+  <div class="video-grid" id="paracordGrid">
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+    <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
+  </div>
+
+  <div class="about-grid" id="paracord-about" style="margin-top:60px;">
+    <div class="about-block">
+      <h3>about the channel</h3>
+      <p>Step-by-step paracord tutorials, gear builds, and knot-tying breakdowns for
+        beginners and lifers alike. New weaves every week.</p>
+      <div class="tag-row">
+        <span class="tag">cobra weave</span>
+        <span class="tag">solomon bar</span>
+        <span class="tag">survival gear</span>
+        <span class="tag">EDC builds</span>
+      </div>
+    </div>
+    <div class="about-block">
+      <h3>latest build log</h3>
+      <p style="color:var(--text-dim);">New knots, weaves, and builds posted
+        regularly — the grid above always pulls straight from the latest
+        uploads on YouTube.</p>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="footer-links">
+    <a href="https://www.youtube.com/channel/UCThoICfvPSVzRNzDvnxs8lg" target="_blank" rel="noopener">Paracord Corner — YouTube</a>
+    <a href="https://www.youtube.com/@jacobturner25" target="_blank" rel="noopener">Tech Channel — YouTube</a>
+    <a href="#" target="_blank" rel="noopener">Personal Site</a>
+    <a href="#" target="_blank" rel="noopener">GitHub</a>
+    <a href="mailto:turnejac01@gmail.com">Email</a>
+  </div>
+  <p>&copy; <span id="year"></span> Jacob. Built with plain HTML/CSS/JS — no framework needed.</p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  loadYouTubeChannel('UCThoICfvPSVzRNzDvnxs8lg', 'paracordGrid');
+</script>
+</body>
+</html>
