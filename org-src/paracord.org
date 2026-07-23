@@ -1,5 +1,5 @@
 #+TITLE: Jacob's Paracord Corner | Jacob
-#+OPTIONS: html-postamble:nil html-preamble:nil toc:nil num:nil author:nil timestamp:nil
+#+OPTIONS: html-postamble:nil html-preamble:nil toc:nil num:nil author:nil timestamp:nil title:nil
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0">
 #+HTML_HEAD: <meta name="description" content="Paracord crafting tutorials, knot-tying breakdowns, and gear builds from Jacob's Paracord Corner.">
 #+HTML_HEAD: <link rel="stylesheet" href="style.css">

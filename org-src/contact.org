@@ -1,5 +1,5 @@
 #+TITLE: Contact | Jacob
-#+OPTIONS: html-postamble:nil html-preamble:nil toc:nil num:nil author:nil timestamp:nil
+#+OPTIONS: html-postamble:nil html-preamble:nil toc:nil num:nil author:nil timestamp:nil title:nil
 #+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0">
 #+HTML_HEAD: <meta name="description" content="Get in touch with Jacob — email and channel links.">
 #+HTML_HEAD: <link rel="stylesheet" href="style.css">
