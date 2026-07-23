@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Jacob's Paracord Corner | Jacob</title>
-<meta name="generator" content="Org Mode" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Paracord crafting tutorials, knot-tying breakdowns, and gear builds from Jacob's Paracord Corner.">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div id="content" class="content">
+#+TITLE: Jacob's Paracord Corner | Jacob
+#+OPTIONS: html-postamble:nil html-preamble:nil toc:nil num:nil author:nil timestamp:nil
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#+HTML_HEAD: <meta name="description" content="Paracord crafting tutorials, knot-tying breakdowns, and gear builds from Jacob's Paracord Corner.">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css">
+
+#+BEGIN_EXPORT html
 <header>
-<h1 class="title">Jacob&rsquo;s Paracord Corner | Jacob</h1>
-</header><header>
   <div class="nav-backdrop" id="navBackdrop"></div>
   <nav>
     <a href="index.html" class="logo"><span>paracord</span>_<span>tech</span></a>
@@ -80,6 +72,4 @@
 <script>
   loadYouTubeChannel('UCThoICfvPSVzRNzDvnxs8lg', 'paracordGrid');
 </script>
-</div>
-</body>
-</html>
+#+END_EXPORT

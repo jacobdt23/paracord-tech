@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>About | Jacob</title>
-<meta name="generator" content="Org Mode" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="About Jacob — the person behind Jacob's Paracord Corner and the tech channel.">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div id="content" class="content">
+#+TITLE: Contact | Jacob
+#+OPTIONS: html-postamble:nil html-preamble:nil toc:nil num:nil author:nil timestamp:nil
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#+HTML_HEAD: <meta name="description" content="Get in touch with Jacob — email and channel links.">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css">
+
+#+BEGIN_EXPORT html
 <header>
-<h1 class="title">About | Jacob</h1>
-</header><header>
   <div class="nav-backdrop" id="navBackdrop"></div>
   <nav>
     <a href="index.html" class="logo"><span>paracord</span>_<span>tech</span></a>
@@ -23,32 +15,30 @@
     <div class="nav-links" id="navLinks">
       <a href="paracord.html">Paracord</a>
       <a href="tech.html">Tech</a>
-      <a href="about.html" aria-current="page">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
     </div>
   </nav>
 </header>
 
-<section id="about" style="padding-top:60px;">
+<section id="contact-page" style="padding-top:60px;">
   <div class="section-head">
-    <h2>About Me</h2>
-    <span class="section-tag">// the person behind both channels</span>
+    <h2>Contact</h2>
+    <span class="section-tag">// get in touch</span>
   </div>
   <div class="about-grid">
     <div class="about-block">
-      <h3>who I am</h3>
-      <p>I'm Jacob — I split my time between tying knots and tying together Linux
-        systems. Both channels are really about the same thing: figuring out how
-        something works, then showing you how to build it yourself.</p>
+      <h3>email</h3>
+      <p><a href="mailto:turnejac01@gmail.com" class="channel-link" style="color:var(--tech);">turnejac01@gmail.com</a></p>
     </div>
     <div class="about-block">
       <h3>elsewhere</h3>
-      <p>Source and other projects live on GitHub — check the link below.</p>
+      <p>Channels and source code are linked in the footer below.</p>
     </div>
   </div>
 </section>
 
-<footer id="contact">
+<footer>
   <div class="footer-links">
     <a href="https://www.youtube.com/channel/UCThoICfvPSVzRNzDvnxs8lg" target="_blank" rel="noopener">Paracord Corner — YouTube</a>
     <a href="https://www.youtube.com/@jacobturner25" target="_blank" rel="noopener">Tech Channel — YouTube</a>
@@ -60,6 +50,4 @@
 </footer>
 
 <script src="script.js"></script>
-</div>
-</body>
-</html>
+#+END_EXPORT

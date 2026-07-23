@@ -3,11 +3,24 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
+const navBackdrop = document.getElementById('navBackdrop');
 if (navToggle && navLinks) {
-  navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    if (navBackdrop) navBackdrop.classList.toggle('open');
+  });
   navLinks.querySelectorAll('a').forEach(a =>
-    a.addEventListener('click', () => navLinks.classList.remove('open'))
+    a.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      if (navBackdrop) navBackdrop.classList.remove('open');
+    })
   );
+  if (navBackdrop) {
+    navBackdrop.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navBackdrop.classList.remove('open');
+    });
+  }
 }
 
 // ---- Live YouTube feed (client-side, via RSS -> JSON proxy) ----
