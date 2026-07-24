@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Tech Channel | Jacob</title>
-<meta name="description" content="Linux distro hopping, window manager rices, and self-hosted tooling from Jacob's tech channel.">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+#+TITLE: Jacob's Paracord Corner | Jacob
+#+OPTIONS: html-postamble:nil html-preamble:nil toc:nil num:nil author:nil timestamp:nil title:nil
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#+HTML_HEAD: <meta name="description" content="Paracord crafting tutorials, knot-tying breakdowns, and gear builds from Jacob's Paracord Corner.">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css">
 
+#+BEGIN_EXPORT html
 <header>
   <div class="nav-backdrop" id="navBackdrop"></div>
   <nav>
@@ -17,21 +13,21 @@
       <span></span><span></span><span></span>
     </button>
     <div class="nav-links" id="navLinks">
-      <a href="paracord.html">Paracord</a>
-      <a href="tech.html" aria-current="page">Tech</a>
+      <a href="paracord.html" aria-current="page">Paracord</a>
+      <a href="tech.html">Tech</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </div>
   </nav>
 </header>
 
-<section id="tech" style="padding-top:60px;">
+<section id="paracord" style="padding-top:60px;">
   <div class="section-head">
-    <h2>The Tech Channel</h2>
-    <a href="https://www.youtube.com/@jacobturner25" target="_blank" rel="noopener" class="section-tag channel-link">↗ youtube.com/@jacobturner25</a>
+    <h2>Jacob's Paracord Corner</h2>
+    <a href="https://www.youtube.com/channel/UCThoICfvPSVzRNzDvnxs8lg" target="_blank" rel="noopener" class="section-tag channel-link">↗ youtube.com/@JacobTurner-p1f9c</a>
   </div>
 
-  <div class="video-grid" id="techGrid">
+  <div class="video-grid" id="paracordGrid">
     <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
     <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
     <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
@@ -40,32 +36,23 @@
     <div class="video-card skeleton"><div class="thumb"></div><div class="video-info"><div class="skel-line w70"></div><div class="skel-line w40"></div></div></div>
   </div>
 
-  <div class="about-grid" id="tech-about" style="margin-top:60px;">
+  <div class="about-grid" id="paracord-about" style="margin-top:60px;">
     <div class="about-block">
       <h3>about the channel</h3>
-      <p>Linux distro hopping, window manager rices, self-hosted tooling, and the
-        occasional deep-dive when something breaks in an interesting way.</p>
+      <p>Step-by-step paracord tutorials, gear builds, and knot-tying breakdowns for
+        beginners and lifers alike. New weaves every week.</p>
       <div class="tag-row">
-        <span class="tag">CachyOS</span>
-        <span class="tag">Arch Linux</span>
-        <span class="tag">COSMIC</span>
-        <span class="tag">self-hosting</span>
+        <span class="tag">cobra weave</span>
+        <span class="tag">solomon bar</span>
+        <span class="tag">survival gear</span>
+        <span class="tag">EDC builds</span>
       </div>
     </div>
     <div class="about-block">
-      <h3>current setup</h3>
-      <div class="terminal">
-        <div class="terminal-bar"><span></span><span></span><span></span></div>
-        <div class="terminal-body">
-<div><span class="comment"># neofetch (abbreviated)</span></div>
-<div><span class="prompt">os</span>       CachyOS x86_64</div>
-<div><span class="prompt">kernel</span>   7.1.3-1-cachyos</div>
-<div><span class="prompt">shell</span>    fish 4.8.0</div>
-<div><span class="prompt">de/wm</span>   COSMIC (cosmic-comp)</div>
-<div><span class="prompt">cpu</span>      AMD Ryzen 7 7800X3D</div>
-<div><span class="prompt">gpu</span>      RTX 5070</div>
-        </div>
-      </div>
+      <h3>latest build log</h3>
+      <p style="color:var(--text-dim);">New knots, weaves, and builds posted
+        regularly — the grid above always pulls straight from the latest
+        uploads on YouTube.</p>
     </div>
   </div>
 </section>
@@ -83,7 +70,6 @@
 
 <script src="script.js"></script>
 <script>
-  loadYouTubeChannel('UCt1kj0WxWYxn9Or7N3KgtAg', 'techGrid');
+  loadYouTubeChannel('UCThoICfvPSVzRNzDvnxs8lg', 'paracordGrid');
 </script>
-</body>
-</html>
+#+END_EXPORT

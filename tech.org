@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Tech Channel | Jacob</title>
-<meta name="description" content="Linux distro hopping, window manager rices, and self-hosted tooling from Jacob's tech channel.">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+#+TITLE: The Tech Channel | Jacob
+#+OPTIONS: html-postamble:nil html-preamble:nil toc:nil num:nil author:nil timestamp:nil title:nil
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#+HTML_HEAD: <meta name="description" content="Linux distro hopping, window manager rices, and self-hosted tooling from Jacob's tech channel.">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css">
 
+#+BEGIN_EXPORT html
 <header>
   <div class="nav-backdrop" id="navBackdrop"></div>
   <nav>
@@ -85,5 +81,4 @@
 <script>
   loadYouTubeChannel('UCt1kj0WxWYxn9Or7N3KgtAg', 'techGrid');
 </script>
-</body>
-</html>
+#+END_EXPORT

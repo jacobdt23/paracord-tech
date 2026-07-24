@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jacob | Paracord & Tech</title>
-<meta name="description" content="Paracord crafting and Linux/tech content from Jacob — home to Jacob's Paracord Corner and the tech channel.">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+#+TITLE: About | Jacob
+#+OPTIONS: html-postamble:nil html-preamble:nil toc:nil num:nil author:nil timestamp:nil title:nil
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#+HTML_HEAD: <meta name="description" content="About Jacob — the person behind Jacob's Paracord Corner and the tech channel.">
+#+HTML_HEAD: <link rel="stylesheet" href="style.css">
 
+#+BEGIN_EXPORT html
 <header>
   <div class="nav-backdrop" id="navBackdrop"></div>
   <nav>
@@ -19,21 +15,28 @@
     <div class="nav-links" id="navLinks">
       <a href="paracord.html">Paracord</a>
       <a href="tech.html">Tech</a>
-      <a href="about.html">About</a>
+      <a href="about.html" aria-current="page">About</a>
       <a href="contact.html">Contact</a>
     </div>
   </nav>
 </header>
 
-<section class="hero">
-  <div class="hero-eyebrow">two channels, one build log</div>
-  <h1>I build things — <span class="accent-a">knots</span> by hand,
-    <span class="accent-b">systems</span> by keyboard.</h1>
-  <p>Welcome to my corner of the internet. Paracord crafting tutorials on one side,
-    Linux/self-hosting/dev content on the other. Same guy, two obsessions.</p>
-  <div class="hero-cta">
-    <a href="paracord.html" class="btn btn-primary">Paracord Corner ↓</a>
-    <a href="tech.html" class="btn btn-secondary">Tech Channel ↓</a>
+<section id="about" style="padding-top:60px;">
+  <div class="section-head">
+    <h2>About Me</h2>
+    <span class="section-tag">// the person behind both channels</span>
+  </div>
+  <div class="about-grid">
+    <div class="about-block">
+      <h3>who I am</h3>
+      <p>I'm Jacob — I split my time between tying knots and tying together Linux
+        systems. Both channels are really about the same thing: figuring out how
+        something works, then showing you how to build it yourself.</p>
+    </div>
+    <div class="about-block">
+      <h3>elsewhere</h3>
+      <p>Source and other projects live on GitHub — check the link below.</p>
+    </div>
   </div>
 </section>
 
@@ -49,5 +52,4 @@
 </footer>
 
 <script src="script.js"></script>
-</body>
-</html>
+#+END_EXPORT
